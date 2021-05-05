@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="search-module" duration-ms="36714" started-at="2021-05-01T00:05:14 GMT" finished-at="2021-05-01T00:05:51 GMT">
+    <groups>
+    </groups>
+    <test name="search-test-java" duration-ms="36714" started-at="2021-05-01T00:05:14 GMT" finished-at="2021-05-01T00:05:51 GMT">
+      <class name="tests.SearchCloth">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:tests.SearchCloth@464bee09]" name="setupDriver" is-config="true" duration-ms="5588" started-at="2021-05-01T00:05:14 GMT" finished-at="2021-05-01T00:05:20 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="searchCloth(java.lang.String)[pri:0, instance:tests.SearchCloth@464bee09]" name="searchCloth" duration-ms="8190" started-at="2021-05-01T00:05:20 GMT" data-provider="prendas" finished-at="2021-05-01T00:05:28 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCloth -->
+        <test-method status="PASS" signature="searchCloth(java.lang.String)[pri:0, instance:tests.SearchCloth@464bee09]" name="searchCloth" duration-ms="2846" started-at="2021-05-01T00:05:28 GMT" data-provider="prendas" finished-at="2021-05-01T00:05:31 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pants]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCloth -->
+        <test-method status="PASS" signature="searchCloth(java.lang.String)[pri:0, instance:tests.SearchCloth@464bee09]" name="searchCloth" duration-ms="2098" started-at="2021-05-01T00:05:31 GMT" data-provider="prendas" finished-at="2021-05-01T00:05:33 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCloth -->
+        <test-method status="PASS" signature="searchCloth(java.lang.String)[pri:0, instance:tests.SearchCloth@464bee09]" name="searchCloth" duration-ms="2152" started-at="2021-05-01T00:05:33 GMT" data-provider="prendas" finished-at="2021-05-01T00:05:35 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCloth -->
+        <test-method status="PASS" signature="searchCloth(java.lang.String)[pri:0, instance:tests.SearchCloth@464bee09]" name="searchCloth" duration-ms="2869" started-at="2021-05-01T00:05:35 GMT" data-provider="prendas" finished-at="2021-05-01T00:05:38 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pants]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCloth -->
+        <test-method status="PASS" signature="searchCloth(java.lang.String)[pri:0, instance:tests.SearchCloth@464bee09]" name="searchCloth" duration-ms="2814" started-at="2021-05-01T00:05:38 GMT" data-provider="prendas" finished-at="2021-05-01T00:05:41 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCloth -->
+        <test-method status="PASS" signature="searchCloth(java.lang.String)[pri:0, instance:tests.SearchCloth@464bee09]" name="searchCloth" duration-ms="2669" started-at="2021-05-01T00:05:41 GMT" data-provider="prendas" finished-at="2021-05-01T00:05:44 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCloth -->
+        <test-method status="PASS" signature="searchCloth(java.lang.String)[pri:0, instance:tests.SearchCloth@464bee09]" name="searchCloth" duration-ms="4144" started-at="2021-05-01T00:05:44 GMT" data-provider="prendas" finished-at="2021-05-01T00:05:48 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pants]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCloth -->
+        <test-method status="PASS" signature="searchCloth(java.lang.String)[pri:0, instance:tests.SearchCloth@464bee09]" name="searchCloth" duration-ms="3099" started-at="2021-05-01T00:05:48 GMT" data-provider="prendas" finished-at="2021-05-01T00:05:51 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCloth -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchCloth@464bee09]" name="tearDown" is-config="true" duration-ms="100" started-at="2021-05-01T00:05:51 GMT" finished-at="2021-05-01T00:05:51 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchCloth -->
+    </test> <!-- search-test-java -->
+  </suite> <!-- search-module -->
+</testng-results>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="search-module">
+    <test name="search-test-java">
+        <parameter name="keyword" value="java" />
+        <classes>
+            <class name="tests.SearchCloth" />
+        </classes>
+    </test>
+</suite>

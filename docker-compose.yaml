@@ -1,0 +1,31 @@
+version: "3"
+services:
+    hub:
+      image: selenium/hub:3.14
+      container_name: hub
+      ports:
+        - "4444:4444"
+    firefox:
+      image: selenium/node-firefox:3.14
+      shm_size: '1gb'
+      depends_on: 
+        - hub
+      environment:
+        - HUB_HOST=hub
+    chrome:
+      image: selenium/node-chrome:3.14
+      depends_on:
+        - hub
+      environment:
+        - HUB_HOST=hub
+    search-module:
+      image: josserestrepo/selenium-docker
+      depends_on:
+        - chrome
+        - firefox
+      environment:
+        - BROWSER=firefox
+        - HUB_HOST=192.168.1.1:4444
+        - MODULE=search-module.xml
+      volumes:
+        - ./search-resulto:/usr/share/udemy/test-output
